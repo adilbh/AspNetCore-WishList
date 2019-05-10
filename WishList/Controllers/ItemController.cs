@@ -29,7 +29,7 @@ namespace WishList.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Model.Item item)
+        public IActionResult Create(Models.Item item)
         {
             _context.Add(item);
             _context.SaveChanges();
