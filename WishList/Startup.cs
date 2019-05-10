@@ -28,7 +28,7 @@ namespace WishList
             {
                 app.UseDeveloperExceptionPage();
             }
-            elseM
+            else
             {
                 app.UseExceptionHandler("/Home/Error");
             }
